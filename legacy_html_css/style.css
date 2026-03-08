@@ -1,0 +1,297 @@
+* {
+    margin: 0px;
+    font-family: Arial;
+    border: border-box;
+}
+
+.box1 {
+    height: 800px;
+    width: 1500px;
+    background: url("image\ 1.jpg");
+    background-size: cover;
+}
+
+.bimage {
+    height: 800px;
+    width: 1500px;
+    background-color: rgba(0, 0, 0, .7);
+}
+
+.topbar {
+    height: 95px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nlogo1 {
+    height: 70px;
+    width: 50%;
+}
+
+.nlogo {
+    height: 70px;
+    width: 150px;
+    background-image: url("Netflix_Logo_PMS.png");
+    background-size: cover;
+    margin: 8px 0px 0px 16px;
+}
+
+.signin {
+    height: 32px;
+    width: 76px;
+}
+
+.sign {
+    height: 32px;
+    width: 76px;
+    background-color: #e50914;
+    color: white;
+    border-radius: 0.3rem;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+.searchselect {
+    height: 32px;
+    width: 132px;
+    padding: 6px 30px;
+    background-color: #141111;
+    color: white;
+    font-weight: 600;
+    font-size: 0.9rem;
+    border-radius: 0.3rem;
+}
+
+.text {
+    height: 300px;
+    width: 1150px;
+    /* background-color:#e50914; */
+    position: relative;
+    left: 160px;
+    top: 180px;
+    color: #FFFFFF;
+}
+
+.heading {
+    text-align: center;
+    font-size: 3.2rem;
+}
+
+.subtext {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 1.5rem;
+}
+
+.heading1 {
+    text-align: center;
+    padding-top: 40px;
+    font-size: 1.5rem;
+}
+
+.box {
+    height: 45px;
+    width: 400px;
+    border: 1px solid white;
+    background-color: rgba(50, 50, 50, .6);
+    color: white;
+}
+
+.textbox {
+    height: 40px;
+    width: 1150;
+    border-radius: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.getstarted {
+    height: 50px;
+    width: 190px;
+    background-color: #e50914;
+    color: white;
+    border-radius: 0.3rem;
+    font-size: 0.9rem;
+    font-weight: 600;
+    position: relative;
+    left: 10px;
+}
+
+.herosection {
+    height: 500px;
+    width: 1500px;
+    background-color: #000000;
+}
+
+.herosection {
+    border-top: 10px solid #232323;
+    border-bottom: 10px solid #232323;
+    color: #FFFFFF;
+}
+
+.outer {
+    width: 1500px;
+    padding-top: 72px;
+    padding-bottom: 72px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.content {
+    height: 250px;
+    width: 600px;
+    /* background-color: aqua; */
+    position: relative;
+    left: 50px;
+    top: 50px;
+}
+
+.content h2 {
+    font-size: 4rem;
+    font-weight: 900;
+}
+
+.content p {
+    padding: 10px;
+    font-size: 30px;
+}
+
+.image1 {
+    height: 250px;
+    width: 400px;
+    /* background-color: cadetblue; */
+    margin-left: 50px;
+    background-image: url(image5.jpeg);
+    background-size: 100% 100%;
+    position: relative;
+    top: 40px;
+    right: 20px;
+    animation: slide 10s linear infinite;
+    border-radius: 10%;
+}
+
+@keyframes slide {
+    25% {
+        background: url(image5.jpeg);
+        background-size: 100% 100%;
+    }
+
+    50% {
+        background: url(image6.jpeg);
+        background-size: 100% 100%;
+    }
+
+    75% {
+        background: url(iamge7.jpeg);
+        background-size: 100% 100%;
+    }
+
+    100% {
+        background: url(image8.jpeg);
+        background-size: 100% 100%;
+    }
+}
+
+.herosection1 {
+    height: 500px;
+    width: 1500px;
+    background-color: #000000;
+    /* border-top:10px solid #232323; */
+    border-bottom: 10px solid #232323;
+    color: #FFFFFF;
+}
+
+.image2 {
+    height: 250px;
+    width: 400px;
+    /* background-color: cadetblue; */
+    margin-left: 50px;
+    background-image: url(image9.jpeg);
+    background-size: cover;
+    position: relative;
+    top: 40px;
+    right: 20px;
+    border-radius: 8%;
+
+}
+
+.herosection2 {
+    height: 500px;
+    width: 1500px;
+    background-color: #000000;
+    /* border-top:10px solid #232323; */
+    border-bottom: 10px solid #232323;
+    color: #FFFFFF;
+}
+
+.image3 {
+    height: 250px;
+    width: 400px;
+    /* background-color: cadetblue; */
+    margin-left: 50px;
+    background-image: url(image10.jpeg);
+    background-size: cover;
+    position: relative;
+    top: 40px;
+    right: 20px;
+    border-radius: 8%;
+}
+
+.herosection3 {
+    height: 500px;
+    width: 1500px;
+    background-color: #000000;
+    /* border-top:10px solid #232323; */
+    border-bottom: 10px solid #232323;
+    color: #FFFFFF;
+}
+
+.image4 {
+    height: 350px;
+    width: 500px;
+    /* background-color: cadetblue; */
+    margin-left: 50px;
+    background-image: url(image\ 4.png);
+    background-size: cover;
+    position: relative;
+    top: 40px;
+    right: 20px;
+    bottom: 30px;
+    border-radius: 8%;
+}
+
+.footpanel {
+    height: 400px;
+    width: 1500px;
+    background-color: #000000;
+    /* border-top:10px solid #232323; */
+    border-bottom: 10px solid #232323;
+    color: #b3b3a2;
+}
+
+.lists {
+    height: 300px;
+    background-color: #000000;
+    color: #b3b3a2;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.head p {
+    font-size: 2rem;
+}
+
+ul {
+    margin-top: 1rem;
+}
+
+ul a {
+    display: block;
+    font-size: 1.5rem;
+    padding: 10px;
+    color: #b3b3a2;
+    text-decoration: underline;
+}

@@ -1,0 +1,157 @@
+.faq-section {
+    border-top: 8px solid #232323;
+    background-color: #000;
+    color: #fff;
+    padding: 70px 20px;
+}
+
+.faq-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.faq-title {
+    font-size: 3rem;
+    font-weight: 900;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+/* ── Accordion List ── */
+.faq-list {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.faq-item {
+    background-color: #303030;
+}
+
+/* ── Question Button ── */
+.faq-question {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #303030;
+    color: #fff;
+    border: none;
+    padding: 20px 24px;
+    font-size: 1.25rem;
+    font-weight: 500;
+    text-align: left;
+    cursor: pointer;
+    gap: 16px;
+    transition: background-color 0.2s;
+}
+
+.faq-question:hover {
+    background-color: #414141;
+}
+
+.faq-icon {
+    font-size: 2rem;
+    font-weight: 300;
+    flex-shrink: 0;
+    line-height: 1;
+    transition: transform 0.3s ease;
+}
+
+.faq-question.open .faq-icon {
+    transform: rotate(0deg);
+}
+
+/* ── Answer Panel ── */
+.faq-answer {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.4s ease;
+}
+
+.faq-answer.open {
+    max-height: 400px;
+}
+
+.faq-answer-inner {
+    border-top: 2px solid #000;
+    background-color: #303030;
+    padding: 20px 24px;
+}
+
+.faq-answer-inner p {
+    font-size: 1.15rem;
+    line-height: 1.6;
+    color: #e5e5e5;
+}
+
+/* ── CTA at bottom ── */
+.faq-cta {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.faq-cta p {
+    font-size: 1.1rem;
+    margin-bottom: 18px;
+    color: #e5e5e5;
+}
+
+.faq-textbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.faq-box {
+    height: 55px;
+    width: 380px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 0 15px;
+    font-size: 1rem;
+    border-radius: 4px;
+    outline: none;
+}
+
+.faq-box:focus {
+    border-color: #fff;
+}
+
+.faq-getstarted {
+    height: 55px;
+    padding: 0 28px;
+    background-color: #e50914;
+    color: white;
+    border: none;
+    border-radius: 0.3rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+    cursor: pointer;
+    white-space: nowrap;
+    transition: background-color 0.2s;
+}
+
+.faq-getstarted:hover {
+    background-color: #c11119;
+}
+
+/* ── Responsive ── */
+@media (max-width: 768px) {
+    .faq-title {
+        font-size: 2rem;
+    }
+
+    .faq-question {
+        font-size: 1rem;
+        padding: 16px 18px;
+    }
+
+    .faq-box {
+        width: 100%;
+        max-width: 340px;
+    }
+}
