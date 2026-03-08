@@ -56,7 +56,7 @@
 
 /* ── Individual Images ── */
 .image1 {
-    background-image: url("../assets/image5.jpeg");
+    background-image: url("../assets/image5.png");
     animation: slide 15s ease-in-out infinite;
 }
 
@@ -64,35 +64,35 @@
 
     0%,
     20% {
-        background-image: url("../assets/image5.jpeg");
+        background-image: url("../assets/image5.png");
     }
 
     25%,
     45% {
-        background-image: url("../assets/image6.jpeg");
+        background-image: url("../assets/image6.png");
     }
 
     50%,
     70% {
-        background-image: url("../assets/iamge7.jpeg");
+        background-image: url("../assets/iamge7.png");
     }
 
     75%,
     95% {
-        background-image: url("../assets/image8.jpeg");
+        background-image: url("../assets/image8.png");
     }
 
     100% {
-        background-image: url("../assets/image5.jpeg");
+        background-image: url("../assets/image5.png");
     }
 }
 
 .image2 {
-    background-image: url("../assets/image9.jpeg");
+    background-image: url("../assets/image9.png");
 }
 
 .image3 {
-    background-image: url("../assets/image10.jpeg");
+    background-image: url("../assets/image10.png");
 }
 
 .image4 {
